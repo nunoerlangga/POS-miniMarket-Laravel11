@@ -13,9 +13,9 @@ return new class extends Migration
     {
         Schema::create('t_users', function (Blueprint $table) {
             $table->integer('id_user')->autoIncrement()->primary();
-            $table->string('nama_user', 100);
-            $table->string('username', 50);
-            $table->string('password');
+            $table->string('nama_user',100);
+            $table->string('username',50);
+            $table->string('password',50);
             $table->enum('role', ['admin', 'kasir'])->default('kasir');
             $table->timestamps();
         });

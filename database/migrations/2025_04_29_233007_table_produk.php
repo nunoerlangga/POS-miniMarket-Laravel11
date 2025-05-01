@@ -15,7 +15,7 @@ return new class extends Migration
             $table->integer('id_produk')->primary()->autoIncrement();
             $table->string('nama_produk', 100);
             $table->decimal('harga_produk', 12, 2);
-            $table->text('deskripsi');
+            $table->text('deskripsi')->nullable();
             $table->integer('stok_produk');
             $table->enum('satuan', [
                 'pcs',
@@ -34,7 +34,6 @@ return new class extends Migration
                 'rim',
                 'pasang'
             ]);
-            $table->integer('id_kategori');
             $table->timestamps();
         });
     }
