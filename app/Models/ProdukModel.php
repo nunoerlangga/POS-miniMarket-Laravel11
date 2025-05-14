@@ -14,8 +14,9 @@ class ProdukModel extends Model
         'nama_produk',
         'satuan',
         'deskripsi',
-        'harga_produk',
-        'stok',
+        'harga_beli_produk',
+        'harga_jual_produk',
+        'stok_produk',
     ];
     public function stokKeluar()
     {

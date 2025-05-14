@@ -14,7 +14,8 @@ return new class extends Migration
         Schema::create('t_produk', function (Blueprint $table) {
             $table->integer('id_produk')->primary()->autoIncrement();
             $table->string('nama_produk', 100);
-            $table->decimal('harga_produk', 12, 2);
+            $table->decimal('harga_beli_produk', 12, 2);
+            $table->decimal('harga_jual_produk', 12, 2);
             $table->text('deskripsi')->nullable();
             $table->integer('stok_produk');
             $table->enum('satuan', [
