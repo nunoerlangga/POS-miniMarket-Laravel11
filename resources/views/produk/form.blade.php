@@ -70,7 +70,7 @@
                         </select>
                     </div>
                 </div>
-                <!-- Satuan Produk -->
+                <!-- deskripsi Produk -->
                 <div class="form-group">
                     <label class="control-label col-sm-2">Deskripsi</label>
                     <div class="col-sm-10">

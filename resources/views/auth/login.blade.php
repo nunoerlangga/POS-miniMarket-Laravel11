@@ -60,14 +60,6 @@
         <!-- /.col -->
       </div>
     </form>
-
-    <!-- Social Login Links -->
-    <div class="social-auth-links text-center">
-      <p>- OR -</p>
-      <a href="{{ url('register') }}" class="btn btn-danger btn-block btn-flat">Register</a>
-    </div>
-    <!-- /.social-auth-links -->
-
   </div>
   <!-- /.login-box-body -->
 </div>
